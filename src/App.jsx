@@ -14,7 +14,7 @@ function App() {
       <header className="hero-section">
         <img src={tituloImg} className="main-title-img" alt="El Futuro de tu Negocio" />
         <p className="subtitle">
-          No se si quieres poner una descripcion aqui jeje
+          No se si quieres poner una descripcion aqui jejee
         </p>
       </header>
 
