@@ -1,7 +1,7 @@
 import React from 'react';
-import tituloImg from './assets/diseños johan/titulo.webp';
-import estoEsParaImg from './assets/diseños johan/cuadro esto es para ti 1.webp';
-import queAprenderasImg from './assets/diseños johan/que aprenderas.webp';
+import tituloImg from './assets/disenos-johan/titulo.webp';
+import estoEsParaImg from './assets/disenos-johan/cuadro-esto-es-para-ti-1.webp';
+import queAprenderasImg from './assets/disenos-johan/que-aprenderas.webp';
 import './App.css';
 
 function App() {
