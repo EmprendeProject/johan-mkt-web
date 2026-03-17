@@ -3,6 +3,7 @@ import tituloImg from './assets/disenos-johan/titulo.webp';
 import estoEsParaImg from './assets/disenos-johan/cuadro-esto-es-para-ti-1.webp';
 import queAprenderasImg from './assets/disenos-johan/que-aprenderas.webp';
 import estoEsPara2Img from './assets/disenos-johan/cuadro-esto-es-para-2.webp';
+import VslPlayer from './VslPlayer';
 import workshopImg from './assets/disenos-johan/workshop-convierte-1.0-portada.webp';
 import fechaEventoImg from './assets/disenos-johan/fecha del evento web.webp';
 import costoImg from './assets/disenos-johan/costo del workshop.webp';
@@ -24,15 +25,8 @@ function App() {
       </header>
 
       <section className="vsl-section">
-        <div className="video-container">
-          <iframe 
-            src="https://player.vimeo.com/video/1173740313?h=0&title=0&byline=0&portrait=0" 
-            style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}} 
-            frameBorder="0" 
-            allow="autoplay; fullscreen; picture-in-picture" 
-            allowFullScreen
-            title="Video Sales Letter"
-          ></iframe>
+        <div className="video-container" style={{ padding: 0, overflow: 'visible', background: 'transparent', boxShadow: 'none', border: 'none' }}>
+          <VslPlayer videoId="001d866c-35c8-4d12-acef-e512d0629dde" />
         </div>
       </section>
 
