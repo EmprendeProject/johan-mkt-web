@@ -31,20 +31,20 @@ function App() {
       </section>
 
       <section className="cta-section">
-        <button className="cta-button">
-          Comenzar Ahora
+        <a href="https://wa.link/7etfay" target="_blank" rel="noopener noreferrer" className="cta-button" style={{ textDecoration: 'none' }}>
+          <span>COMPRAR ENTRADA</span>
           <svg className="arrow-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
-        </button>
+        </a>
       </section>
 
       <section className="info-image-section">
-        <img src={estoEsParaImg} alt="Esto es para ti" className="info-image" />
+        <img src={estoEsParaImg} alt="Esto es para ti" className="info-image" style={{ position: 'relative', left: '4%' }} />
       </section>
 
-      <section className="info-image-section">
-        <img src={estoEsPara2Img} alt="Esto es para ti 2" className="info-image" />
+      <section className="info-image-section" style={{ marginTop: '-4rem' }}>
+        <img src={estoEsPara2Img} alt="Esto es para ti 2" className="info-image" style={{ position: 'relative', right: '16%', transform: 'scale(1.25)', transformOrigin: 'top center' }} />
       </section>
 
       <section className="info-image-section">
