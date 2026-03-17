@@ -1,11 +1,12 @@
 import React from 'react';
 import tituloImg from './assets/disenos-johan/titulo.webp';
 import estoEsParaImg from './assets/disenos-johan/cuadro-esto-es-para-ti-1.webp';
-import queAprenderasImg from './assets/disenos-johan/que-aprenderas.webp';
 import estoEsPara2Img from './assets/disenos-johan/cuadro-esto-es-para-2.webp';
+import tituloQueAprenderasImg from './assets/disenos-johan/título que aprenderás.png';
+import cajasQueAprenderasImg from './assets/disenos-johan/que aprenderás cajas de info.png';
 import VslPlayer from './VslPlayer';
-import workshopImg from './assets/disenos-johan/workshop-convierte-1.0-portada.webp';
 import fechaEventoImg from './assets/disenos-johan/fecha del evento web.webp';
+import listoParaAsistirImg from './assets/disenos-johan/listo para asistir.png';
 import costoImg from './assets/disenos-johan/costo del workshop.webp';
 import './App.css';
 
@@ -47,19 +48,23 @@ function App() {
         <img src={estoEsPara2Img} alt="Esto es para ti 2" className="info-image" style={{ position: 'relative', right: '16%', transform: 'scale(1.25)', transformOrigin: 'top center' }} />
       </section>
 
-      <section className="info-image-section">
-        <img src={queAprenderasImg} alt="Qué aprenderás" className="info-image" />
+      <section className="info-image-section" style={{ marginTop: '8rem', marginBottom: 0 }}>
+        <img src={tituloQueAprenderasImg} alt="Título Qué Aprenderás" className="info-image" />
       </section>
 
-      <section className="info-image-section">
-        <img src={workshopImg} alt="Workshop Convierte" className="info-image" />
+      <section className="info-image-section" style={{ marginTop: 0 }}>
+        <img src={cajasQueAprenderasImg} alt="Qué Aprenderás Cajas de Info" className="info-image" />
       </section>
 
       <section className="info-image-section">
         <img src={fechaEventoImg} alt="Fecha del Evento" className="info-image" />
       </section>
 
-      <section className="info-image-section">
+      <section className="info-image-section" style={{ marginBottom: 0 }}>
+        <img src={listoParaAsistirImg} alt="Estás Listo Para Asistir" className="info-image" />
+      </section>
+
+      <section className="info-image-section" style={{ marginTop: 0 }}>
         <img src={costoImg} alt="Costo del Workshop" className="info-image" />
       </section>
     </div>
