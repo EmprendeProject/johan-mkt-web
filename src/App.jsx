@@ -4,6 +4,7 @@ import estoEsParaImg from './assets/disenos-johan/cuadro-esto-es-para-ti-1.webp'
 import queAprenderasImg from './assets/disenos-johan/que-aprenderas.webp';
 import estoEsPara2Img from './assets/disenos-johan/cuadro-esto-es-para-2.webp';
 import workshopImg from './assets/disenos-johan/workshop-convierte-1.0-portada.webp';
+import fechaEventoImg from './assets/disenos-johan/fecha del evento web.webp';
 import costoImg from './assets/disenos-johan/costo del workshop.webp';
 import './App.css';
 
@@ -58,6 +59,10 @@ function App() {
 
       <section className="info-image-section">
         <img src={workshopImg} alt="Workshop Convierte" className="info-image" />
+      </section>
+
+      <section className="info-image-section">
+        <img src={fechaEventoImg} alt="Fecha del Evento" className="info-image" />
       </section>
 
       <section className="info-image-section">
