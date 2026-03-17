@@ -2,6 +2,9 @@ import React from 'react';
 import tituloImg from './assets/disenos-johan/titulo.webp';
 import estoEsParaImg from './assets/disenos-johan/cuadro-esto-es-para-ti-1.webp';
 import queAprenderasImg from './assets/disenos-johan/que-aprenderas.webp';
+import estoEsPara2Img from './assets/disenos-johan/cuadro-esto-es-para-2.webp';
+import workshopImg from './assets/disenos-johan/workshop-convierte-1.0-portada.webp';
+import costoImg from './assets/disenos-johan/costo del workshop.webp';
 import './App.css';
 
 function App() {
@@ -13,9 +16,10 @@ function App() {
 
       <header className="hero-section">
         <img src={tituloImg} className="main-title-img" alt="El Futuro de tu Negocio" />
-        <p className="subtitle">
-          No se si quieres poner una descripcion aqui jejee
-        </p>
+        <div className="video-prompt-container">
+          <p className="prompt-small">¿CÓMO SABER SI ESTO ES PARA TI?</p>
+          <p className="prompt-large">MIRA EL <span className="text-red">VÍDEO</span> DE ABAJO</p>
+        </div>
       </header>
 
       <section className="vsl-section">
@@ -45,7 +49,19 @@ function App() {
       </section>
 
       <section className="info-image-section">
+        <img src={estoEsPara2Img} alt="Esto es para ti 2" className="info-image" />
+      </section>
+
+      <section className="info-image-section">
         <img src={queAprenderasImg} alt="Qué aprenderás" className="info-image" />
+      </section>
+
+      <section className="info-image-section">
+        <img src={workshopImg} alt="Workshop Convierte" className="info-image" />
+      </section>
+
+      <section className="info-image-section">
+        <img src={costoImg} alt="Costo del Workshop" className="info-image" />
       </section>
     </div>
   );
