@@ -21,7 +21,7 @@ function App() {
         <img src={tituloImg} className="main-title-img" alt="El Futuro de tu Negocio" />
         <div className="video-prompt-container">
           <p className="prompt-small">¿CÓMO SABER SI ESTO ES PARA TI?</p>
-          <p className="prompt-large">MIRA EL <span className="text-red">VÍDEO</span> DE ABAJO</p>
+          <p className="prompt-large">MIRA EL <span className="text-red">VÍDEO</span> DE ABAJO.</p>
         </div>
       </header>
 
