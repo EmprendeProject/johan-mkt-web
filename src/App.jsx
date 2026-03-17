@@ -2,12 +2,12 @@ import React from 'react';
 import tituloImg from './assets/disenos-johan/titulo.webp';
 import estoEsParaImg from './assets/disenos-johan/cuadro-esto-es-para-ti-1.webp';
 import estoEsPara2Img from './assets/disenos-johan/cuadro-esto-es-para-2.webp';
-import tituloQueAprenderasImg from './assets/disenos-johan/título que aprenderás.png';
-import cajasQueAprenderasImg from './assets/disenos-johan/que aprenderás cajas de info.png';
+import tituloQueAprenderasImg from './assets/disenos-johan/titulo-que-aprenderas.png';
+import cajasQueAprenderasImg from './assets/disenos-johan/que-aprenderas-cajas-de-info.png';
 import VslPlayer from './VslPlayer';
-import fechaEventoImg from './assets/disenos-johan/fecha del evento web.webp';
-import listoParaAsistirImg from './assets/disenos-johan/listo para asistir.png';
-import costoImg from './assets/disenos-johan/costo del workshop.webp';
+import fechaEventoImg from './assets/disenos-johan/fecha-del-evento.webp';
+import listoParaAsistirImg from './assets/disenos-johan/listo-para-asistir.png';
+import costoImg from './assets/disenos-johan/costo-del-workshop.webp';
 import './App.css';
 
 function App() {
