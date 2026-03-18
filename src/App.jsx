@@ -32,7 +32,18 @@ function App() {
       </section>
 
       <section className="cta-section">
-        <a href="https://wa.link/7etfay" target="_blank" rel="noopener noreferrer" className="cta-button" style={{ textDecoration: 'none' }}>
+        <a 
+          href="https://wa.link/7etfay" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="cta-button" 
+          style={{ textDecoration: 'none' }}
+          onClick={() => {
+            if (window.fbq) {
+              window.fbq('track', 'InitiateCheckout');
+            }
+          }}
+        >
           <span>CLICK AQUÍ Y COMPRA TU ENTRADA</span>
           <svg className="arrow-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
