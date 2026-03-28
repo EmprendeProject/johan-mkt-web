@@ -8,6 +8,10 @@ import VslPlayer from './VslPlayer';
 import fechaEventoImg from './assets/disenos-johan/fecha-del-evento.webp';
 import listoParaAsistirImg from './assets/disenos-johan/listo-para-asistir.png';
 import costoImg from './assets/disenos-johan/costo-del-workshop.webp';
+import evento1Img from './assets/eventos/1.jpeg';
+import evento2Img from './assets/eventos/2.jpeg';
+import evento3Img from './assets/eventos/3.jpeg';
+import evento4Img from './assets/eventos/4.jpeg';
 import './App.css';
 
 function App() {
@@ -67,13 +71,24 @@ function App() {
         <img src={estoEsPara2Img} alt="Esto es para ti 2" className="info-image" style={{ position: 'relative', right: '16%', transform: 'scale(1.25)', transformOrigin: 'top center' }} />
       </section>
 
-      <section className="info-image-section" style={{ marginTop: '8rem', marginBottom: 0 }}>
+      <section className="social-proof-section">
+        <h2 className="social-proof-title">PREPÁRATE PARA TRANSFORMAR TUS RESULTADOS</h2>
+        <div className="gallery-grid">
+          <img src={evento1Img} alt="Evento 1" className="gallery-img" />
+          <img src={evento2Img} alt="Evento 2" className="gallery-img" />
+          <img src={evento3Img} alt="Evento 3" className="gallery-img" />
+          <img src={evento4Img} alt="Evento 4" className="gallery-img" />
+        </div>
+      </section>
+
+      <section className="info-image-section" style={{ marginTop: '2rem', marginBottom: 0 }}>
         <img src={tituloQueAprenderasImg} alt="Título Qué Aprenderás" className="info-image" />
       </section>
 
       <section className="info-image-section" style={{ marginTop: 0 }}>
         <img src={cajasQueAprenderasImg} alt="Qué Aprenderás Cajas de Info" className="info-image" />
       </section>
+
 
       <section className="info-image-section">
         <img src={fechaEventoImg} alt="Fecha del Evento" className="info-image" />
