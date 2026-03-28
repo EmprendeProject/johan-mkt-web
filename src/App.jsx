@@ -31,15 +31,7 @@ function App() {
 
       <section className="vsl-section">
         <div className="video-container" style={{ padding: 0, overflow: 'visible', background: 'transparent', boxShadow: 'none', border: 'none' }}>
-          {/* <VslPlayer videoId="001d866c-35c8-4d12-acef-e512d0629dde" /> */}
-          <iframe 
-            src="https://player.vimeo.com/video/1173740313?title=0&byline=0&portrait=0" 
-            style={{ width: '100%', maxWidth: '900px', aspectRatio: '16/9', margin: '0 auto', display: 'block' }} 
-            frameBorder="0" 
-            allow="autoplay; fullscreen; picture-in-picture" 
-            allowFullScreen 
-            title="Video Principal"
-          ></iframe>
+          <VslPlayer videoId="f68f6cb0-5a98-48be-951c-891352eb72c8" />
         </div>
       </section>
 
